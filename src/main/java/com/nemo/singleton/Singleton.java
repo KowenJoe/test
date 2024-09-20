@@ -19,6 +19,7 @@ public class Singleton {
 
     //双重检查
     private Singleton() {
+
     }
     //使用volatile修饰，禁止重排序
     private static volatile Singleton instance;
